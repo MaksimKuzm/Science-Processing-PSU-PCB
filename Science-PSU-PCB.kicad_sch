@@ -3306,6 +3306,14 @@
 		(color 0 0 0 0)
 		(uuid "f7e36963-2357-454c-ba4f-acb21c8fdd82")
 	)
+	(no_connect
+		(at 68.58 163.83)
+		(uuid "77b096c5-f2d7-49a0-8433-4c7441a3bc99")
+	)
+	(no_connect
+		(at 68.58 158.75)
+		(uuid "7ec6d2f1-4d76-4aa5-a2ee-49e587f5ee51")
+	)
 	(wire
 		(pts
 			(xy 104.14 114.3) (xy 104.14 119.38)
@@ -3365,6 +3373,16 @@
 			(type default)
 		)
 		(uuid "08400400-9491-42f8-99b8-227ca4dfb32a")
+	)
+	(wire
+		(pts
+			(xy 68.58 163.83) (xy 67.31 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09df08c5-a6e7-427b-989a-d159316793b3")
 	)
 	(wire
 		(pts
@@ -3475,6 +3493,16 @@
 			(type default)
 		)
 		(uuid "1b28edb2-a6ca-4d4b-9df8-9dfbc6e47ad8")
+	)
+	(wire
+		(pts
+			(xy 68.58 158.75) (xy 67.31 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3c2f3e-ebf9-4eba-8aa3-e7fe2fd3adf1")
 	)
 	(wire
 		(pts
@@ -4677,7 +4705,7 @@
 		)
 		(uuid "d2017fec-6722-477c-a638-a38e364b2084")
 	)
-	(label "POWER_CTRL_IS"
+	(label "PWR_CTRL_IS"
 		(at 132.08 38.1 0)
 		(effects
 			(font
@@ -5062,7 +5090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 121.92 40.64 0)
 			(effects
 				(font
@@ -5198,7 +5226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -5658,7 +5686,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 101.6 123.1962 0)
 			(effects
 				(font
@@ -5667,7 +5695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 104.14 121.92 0)
 			(effects
 				(font
@@ -6361,7 +6389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 31.75 121.92 0)
 			(effects
 				(font
@@ -6431,7 +6459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 26.67 72.39 0)
 			(effects
 				(font
@@ -7560,7 +7588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -7830,7 +7858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 242.57 77.47 0)
 			(effects
 				(font
@@ -7966,7 +7994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 214.63 40.64 0)
 			(effects
 				(font
@@ -8302,7 +8330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 26.67 157.48 0)
 			(effects
 				(font
@@ -8372,7 +8400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 26.67 121.92 0)
 			(effects
 				(font
@@ -9176,7 +9204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 31.75 157.48 0)
 			(effects
 				(font
@@ -9445,7 +9473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 45.72 29.21 0)
 			(effects
 				(font
@@ -9648,7 +9676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 96.52 158.75 0)
 			(effects
 				(font
@@ -9783,7 +9811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 223.52 77.47 0)
 			(effects
 				(font
@@ -9985,7 +10013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 26.67 50.8 0)
 			(effects
 				(font
@@ -10055,7 +10083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 92.71 158.75 0)
 			(effects
 				(font
