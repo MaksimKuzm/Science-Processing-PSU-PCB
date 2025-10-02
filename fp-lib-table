@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "XT60-M")(type "KiCad")(uri "${KIPRJMOD}/Component Libraries/XT60-M")(options "")(descr ""))
+  (lib (name "I6A24014A033V-001-R")(type "KiCad")(uri "${KIPRJMOD}/Component Libraries/I6A24014A033V-001-R")(options "")(descr ""))
+  (lib (name "BTS50010-1TAE")(type "KiCad")(uri "${KIPRJMOD}/Component Libraries/BTS50010-1TAE")(options "")(descr ""))
+)
